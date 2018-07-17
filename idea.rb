@@ -1,5 +1,6 @@
 class Idea 
-
+  def initialize(title, description)
+  end 
   require 'yaml/store'
   def save 
     database.transaction do |db|
