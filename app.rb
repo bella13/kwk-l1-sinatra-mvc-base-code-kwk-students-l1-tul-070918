@@ -17,3 +17,4 @@ class IdeaBox < Sinatra::Base
 
   end 
   
+end
