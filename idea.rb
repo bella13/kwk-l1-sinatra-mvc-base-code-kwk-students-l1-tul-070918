@@ -1,4 +1,5 @@
 class Idea 
+  require 'yaml/store'
   def save 
     database.transaction do |db|
       db['ideas'] ||=[]
